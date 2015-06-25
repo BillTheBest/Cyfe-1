@@ -1,0 +1,83 @@
+/*
+ * Panel
+ */
+
+#panel {
+    border: 1px solid #4C4C4C;
+    background:#140615;
+    padding: 2px;
+    margin: 0px;
+}
+
+/*
+ * Buttons
+ */
+
+QToolButton::menu-indicator {
+   image: none;
+}
+
+QToolButton {
+    margin: 0px;
+    border: 0px solid transparent;
+    padding: 0px;
+    font-size: 10pt;
+    color: #9951ac;
+    qproperty-iconSize: 20px;
+}
+
+QToolButton:hover {
+    border: 0px solid #9951ac;
+    margin: 1px;
+    padding: 1px;
+
+}
+
+#closeButton {
+    qproperty-icon: url(lxqt-runner/close.svg);
+}
+
+#actionButton {
+    qproperty-icon: url(lxqt-runner/down-arrow.svg);
+}
+
+/*
+ *Search field
+ */
+
+#commandEd {
+    border: 1px solid #4C4C4C;
+    padding: 0px;
+    margin: 0px;
+    background: #140615;
+    color: #9951ac;
+    selection-background-color: #9951ac;
+    selection-color: #140615 ;
+}
+
+/*
+ *Search results list
+ */
+
+#commandList {
+    border: 1px solid #4C4C4C;
+    background: #140615;
+    selection-background-color: #9951ac;
+    selection-color: #140615;	
+    alternate-background-color: #140615;
+    selection-alternate-color: #9951ac;
+    alternate-color: #9951ac; 
+    color: #9951ac;
+}
+
+#commandList::item {
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #4C4C4C;
+    background: #140615;
+    selection-background-color: #9951ac;
+    selection-color: #140615;	
+    alternate-background-color: #140615;
+    alternate-color: #9951ac;
+}
+    
